@@ -1,0 +1,4 @@
+*{
+    /* 화면전환 > section들의 display상태 : block(보임)/none(안 보임) */
+    display: none;
+}
