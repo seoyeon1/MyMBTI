@@ -1,0 +1,25 @@
+/* @keyframes : css에서 애니메이션 효과(fadein)를 적용시키기 위해 키프레임 정의 필요. e.g. btn이 클릭될 때 slow?를 걸어주고 싶을 때
+투명도 0 to 1 */
+@keyframes fadeIn { 
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* 투명도 1 to 0 */
+@keyframes fadeOut { 
+    from { opacity: 1;}
+    to {opacity: 0;}
+}
+
+
+/* webkit : chrome에서 애니메이션 적용하기 위해 정의 */
+@-webkit-keyframes fadeIn { 
+    from { opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* 투명도 1 to 0 */
+@-webkit-keyframes fadeOut { 
+    from { opacity: 1;}
+    to {opacity: 0;}
+}
