@@ -1,4 +1,44 @@
-*{
+#qna{
     /* 화면전환 > section들의 display상태 : block(보임)/none(안 보임) */
     display: none;
+    
+}
+
+.qBox {
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80%;
+    
+}
+
+.answerList{
+    background-color: whitesmoke;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    border : 0px;
+    width: 80%;
+}
+/* answer btn에 마우스를 올리거나 클릭할 때 */
+.answerList:hover, .answerList:focus{ 
+    background-color: rgb(136, 134, 247);
+    /* rgb(68, 176, 238); */
+    color: whitesmoke;
+
+}
+
+/* status bar */
+.status {
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.statusBar {
+    height: 100%;
+    background-color: tomato;
+    border-radius: 20px;
 }
